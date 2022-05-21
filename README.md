@@ -24,7 +24,8 @@ What is the structure of a Block in Bitcoin and how does it relate to the 'block
 
 What problem/s are POW/ POS trying to solve? Discuss/compare (byzantine fault tolerance,
 reaching a single consensus on a p2p network)
-- POW and POS proves that you have spent computational resources to add new blocks in the shared network. The participants maintain a synchronised state and agree on the precise history of transactions.
+- POW and POS proves that you have spent computational resources to add new blocks in the shared network. The participants maintain a synchronised state and agree on the precise history of transactions. This prevents any fraudelent transactions, thus it would invalidate the subsequent blocks. 
 
-
+POW = Miners are rewarded if they find a valid solution for a cryptographic puzzle.
+POS = Randomly selects miners to validate transactions
 
